@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    printf("FullName\t: SAYEDSADAF\n");
+    printf("Age\t\t: 18\n");
+    printf("Class\t\t: FE\n");
+    printf("Division\t: B\n");  // Fixed the escape sequence for newline
+    printf("UIN\t\t: 241C005\n");
+
+    return 0;  // Fixed `return0` to `return 0`
+}
+/* OUTPUT
+Full Name:SAYEDSADAF		
+ Age	: 18
+Class	:FE
+Division	:B 
+UIN	:241C005
