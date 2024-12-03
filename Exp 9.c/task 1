@@ -1,0 +1,20 @@
+/ Function to read student data
+void input_student_data(struct student_record_students[], int n) {
+    for (int i=0; i,n; i++){
+    printf("Enter details for students %d:\n", i+1);
+     
+    printf("Name:");
+    getchar(); //To consume the newline left by the previuos input
+    gets(student[i].name);
+    
+    printf("Roll Number: ");
+    scanf("%d,&student[i.roll_number");
+    
+    printf("Total Marks: ");
+    scanf("%f", &students[i],Total_marks);
+    }
+}
+  //Functionto find and return thr index of the student with the highest marks
+  int find_topper(stuct student_record students[],int i){
+      int topper_index = 0;
+      
